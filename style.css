@@ -205,4 +205,8 @@ button:hover {
     font-size: 16px;
     color: #666;
 }
+/* Arrumando o h2 acima dos produtos*/
+h2{
+    text-align: center;
+}
   

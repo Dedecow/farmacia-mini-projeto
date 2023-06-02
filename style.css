@@ -58,7 +58,7 @@ body {
 
 .nome-remedio img {
     width: 150px;
-    height: 150px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -166,6 +166,11 @@ button:hover {
   
   .Formulario label {
     margin-left: 5px;
+  }
+  .orcamento {
+    display:flex;
+    justify-content:left;
+    align-items:flex-start;
   }
   
   .Formulario input[type="checkbox"] {

@@ -188,4 +188,21 @@ button:hover {
   .rodape p:last-child {
     margin-bottom: 0;
   }
+  /* Estilizando o texto sobre nós e o h1*/
+  .sobre-nos {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.sobre-nos h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.sobre-nos p {
+    font-size: 16px;
+    color: #666;
+}
   

@@ -97,4 +97,80 @@ button {
 button:hover {
     background-color: #45a049;
 }
-
+/*Estilo do formulário*/
+.Formulario form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .Formulario fieldset {
+    border: none;
+  }
+  
+  .Formulario legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .Formulario label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .Formulario input,
+  .Formulario textarea,
+  .Formulario select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .Formulario textarea {
+    resize: vertical;
+  }
+  
+  .Formulario input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .Formulario input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .Formulario input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  .Formulario::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* alinhando o checkbox */
+  
+ 
+  .Formulario legend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .Formulario label {
+    margin-left: 5px;
+  }
+  
+  .Formulario input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  

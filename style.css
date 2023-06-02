@@ -28,14 +28,73 @@ body {
 
 .menu ul li {
     margin-right: 10px;
+    color: #f5fbfd;
 }
 
 .menu ul li a {
     text-decoration: none;
-    color: #333;
     font-weight: bold;
+    color: #f5fbfd;
 }
 
 .menu ul li a:hover {
     text-decoration: underline;
 }
+/* estilo dos  da vitrine*/
+.cards-remedios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nome-remedio {
+    width: calc(25% - 20px);
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.nome-remedio img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.nome-remedio h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.heart-icon {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.botao-adicionar {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+

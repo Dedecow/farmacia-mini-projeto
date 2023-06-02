@@ -1,0 +1,41 @@
+/* zerando as configurações padrão */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* configuração de menu */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.menu img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-right: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}

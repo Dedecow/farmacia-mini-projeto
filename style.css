@@ -173,4 +173,19 @@ button:hover {
     vertical-align: middle;
   }
   
+  /* Estilizado o rodapé*/
+  .rodape {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    color: #296d38;
+  }
+  
+  .rodape p {
+    margin-bottom: 10px;
+  }
+  
+  .rodape p:last-child {
+    margin-bottom: 0;
+  }
   
